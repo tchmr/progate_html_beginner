@@ -1,0 +1,142 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* ここからCSSを記述してください */
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+/*header*/
+
+header {
+  background: #26d0c9;
+  color: #fff;
+  height: 90px;
+}
+
+header h1 {
+  font-weight: normal;
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+header ul li {
+  display: inline-block;
+  padding: 33px 20px;
+}
+
+/*copy*/
+.copy {
+  margin: 100px 80px 0 80px;
+}
+
+.copy h1 {
+  font-size: 140px;
+}
+
+.copy h2 {
+  font-size: 60px;
+}
+
+.red {
+  color: red;
+}
+
+/*lessons*/
+.lessons {
+  margin: 100px 80px;
+  height: 500px;
+}
+
+.lessons h3 {
+  font-size: 28px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #dee7ec;
+}
+
+.lesson {
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.lesson:not(:last-child) {
+  margin-right: 40px;
+}
+
+.lesson p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+/*ask*/
+
+.ask {
+  margin: 0 80px 100px;
+}
+
+.ask h3 {
+  font-size: 28px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #dee7ec;
+}
+
+/*.ask form {*/
+/*  width: 400px;*/
+/*}*/
+
+.mail {
+  margin-top: 50px;
+}
+
+.ask input,
+.ask textarea {
+  width: 400px;
+  padding: 22px;
+  margin-bottom: 30px;
+  border: 1px solid #dee7ec;
+}
+
+.ask p {
+  margin-bottom: 10px;
+}
+
+.ask .btn {
+  background: #dee7ec;
+
+  font-size: 18px;
+}
+
+/*footer*/
+footer {
+  background: #2f5167;
+  height: 120px;
+  padding: 40px;
+  color: #fff;
+  
+}
+
+footer h3 {
+  float: left;
+  font-size: 32px;
+  font-weight: normal;
+}
+
+footer ul {
+  float: right;
+  
+}
+
+footer li {
+  margin-bottom: 20px;
+}
